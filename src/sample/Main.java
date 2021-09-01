@@ -167,7 +167,7 @@ public class Main extends Application {
         //with color white at (10,30) position
         gc.setFill(Color.WHITE);
         gc.setFont(new Font("",30));
-        gc.fillText("Score:",+(speed-6),30,60);
+        gc.fillText("Score: "+ (speed-6),10,30);
 
         //random foodcolor
         Color cc=Color.WHITE;
